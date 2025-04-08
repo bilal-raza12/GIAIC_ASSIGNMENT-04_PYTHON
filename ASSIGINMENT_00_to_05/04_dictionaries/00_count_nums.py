@@ -1,7 +1,7 @@
 def get_numbers():
     num_list: list = []
     while True:
-        num = input("Enter a number: ")
+        num = input("\033[34mEnter a number: \033[0m")
         if num == "":
             break
 
