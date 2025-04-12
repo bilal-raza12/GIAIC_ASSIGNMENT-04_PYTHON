@@ -1,0 +1,13 @@
+[project]
+name = "assignment-1-to-6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+    "streamlit>=1.44.1",
+]
+
+[tool.uv.workspace]
+members = ["08_BMI_Calculator_Streamlit"]
